@@ -1,0 +1,21 @@
+.dayzone {
+  height: 50px;
+  width: 300px;
+  background-color: rgba(80, 73, 73, 0.7);
+  border-radius: 10px;
+  border: 1px solid white
+}
+
+.dayzone {
+  padding: 0 10px 0 10px;
+}
+
+#cloud,
+#day {
+  float: left;
+  padding-right: 8px;
+}
+
+#date {
+  float: right;
+}

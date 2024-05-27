@@ -1,0 +1,16 @@
+.weatherapp{
+  font-family: cursive;
+  width: 100%;
+  border-radius: 8px;
+  padding-bottom: 2rem;
+  /* background-color: rgb(221, 227, 233); */
+  margin: auto;
+  margin-top: 0rem;
+}
+.video {
+  position: absolute;
+  right: 0;
+    bottom: 0;
+  z-index: -1;
+}
+

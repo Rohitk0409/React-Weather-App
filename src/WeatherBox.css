@@ -1,0 +1,63 @@
+.card-container{
+    color: white;
+    height: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center; 
+  
+   
+}
+.card{
+  min-height:200px;
+  min-width: 250px;
+height: 250px;
+width: 280px;
+border: 2px solid white;
+background-color: rgba(80, 73, 73, 0.7);
+border-radius: 8px;
+margin: 10px;
+transition:0.3s;
+
+  
+}
+@media only screen and (max-width: 800px) {
+ .card-container{
+  overflow: scroll;
+  justify-content: left;
+  padding: 20px;
+  margin-top: 0px;;
+
+ }
+ 
+}
+
+.location{
+  float: left;
+  padding-left: 20px;
+  font-size:x-large;
+}
+.cloud{
+  
+  font-weight: bolder;
+  font-size: xx-large;
+ 
+}
+.maxandmin{
+  margin-top: 90px;
+}
+ .presure{
+    margin-top: 40px;
+    font-size: xx-large;
+    font-weight: bolder;
+ }
+ .sunset{
+  padding-top: 20px;
+ 
+ }
+ .fa-sun ,.fa-cloud-sun{
+  float: right;
+  padding-right: 10px;
+  font-size: xx-large;
+ }
+
+  

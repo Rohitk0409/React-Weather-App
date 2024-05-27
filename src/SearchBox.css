@@ -1,0 +1,35 @@
+#searchBox{
+  height: 2rem;
+  width: 50%;
+  margin-right: 0.5rem;
+
+  padding-left: 0.5rem;
+  border-radius: 20px;
+  border:1px solid black;
+}
+
+#serachButton {
+  height: 2.5rem;
+  border-radius: 20px;
+
+}
+
+.fa-solid {
+  font-weight: 800px;
+  font-size: larger;
+}
+
+.btn{
+ background-color: rgb(141, 217, 141);
+ width: 100px;
+ height: 40px;
+ font-weight: 700;
+ font-size: larger;
+ border-radius: 20px;
+ transition: 1s;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
